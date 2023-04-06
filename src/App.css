@@ -1,0 +1,25 @@
+.App {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.box-container{
+
+  display: grid;
+  grid-template-columns: repeat(3,1fr);
+  gap: 5px;
+
+
+}
+
+.box{
+
+
+  border: 1px solid black;
+  padding: 10 px;
+  height: 50 px;
+  width: 50 px;
+}
+
